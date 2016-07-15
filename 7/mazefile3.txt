@@ -1,0 +1,15 @@
+12 60
+2 53
+5 13
+************************************************************
+*ooooooooooooooooooooooo*oooooooooooooooooooooooooooooooooo*
+*ooooooooooooooooooooooooooooooooooooooo*ooooooooooooSooooo*
+*oooooo************ooooo*ooooooooooooooo*oooooooooooooooooo*
+*ooooooooooooooooo*ooooo*oooooo****************ooo**********
+*ooooooooooooGoooo*ooooo*ooooooooooooooo*oooooooooooooooooo*
+*ooooooooooooooooooooooo*ooooooooooooooo*oooooooooooooooooo*
+*ooooooooooooooooo*ooooo*ooooooooooooooo*oooooooooooooooooo*
+*oooooo*******o****ooooo*ooooooooooooooo*oooooooooooooooooo*
+*ooooooooooooooooooooooo*oooooooooooooooooooooooooooooooooo*
+*oooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*
+************************************************************

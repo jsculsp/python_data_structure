@@ -1,0 +1,19 @@
+ // program 3_4.cpp 
+#include<iostream.h> 
+#include<iomanip.h> 
+void main() 
+{ 
+const int n=1000; 
+int i=1,j,count=0,sieve[n+1]; 
+for(j=1;j<n;j++)sieve[j]=j; // 把1~n存入sieve[n] 
+while(i<n+1) // 从while循环开始完成全部素数的产生和输出。 
+{ 
+while(sieve[i]==1) i++; // 跳过值为1的分量，表示下一个分量必为一素数 
+cout<<setw(4)<<sieve[i]; // setw(4)设置以宽度为4的格式输出数据。setw(4) 
+// 等价于cout.width(4) 
+count++; 
+if(count%15==0)cout<<endl; 
+for(j=i;j<n+1;j+=i) 
+sieve[j]=1; 
+} 
+}
