@@ -60,4 +60,4 @@ class MaxHeap(object):
 		if largest != ndx:
 			self._elements[ndx], self._elements[largest] = \
 			self._elements[largest], self._elements[ndx]
-			self._siftDown(ndx)
+			self._siftDown(largest)
