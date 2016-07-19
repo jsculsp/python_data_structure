@@ -182,6 +182,14 @@ class AVLMap(object):
 					
 		# Return the results.
 		return (subtree, taller)
+		
+	def _avlRemove(subtree, target):
+		# Search for the item in the tree.
+		if subtree is None:
+			return subtree
+		elif target < subtree.key:
+			subtree.left = self._avlRemove(subtree.left, target)
+			
 			
 # An iterator for the binary search tree using a software stack.
 class _BSTMAPIterator(object):
